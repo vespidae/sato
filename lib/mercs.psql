@@ -1,0 +1,18 @@
+CREATE TABLE mercs (
+	allegiance varchar(80), -- archetype
+	title varchar(80), -- type flavor
+	cost int, -- summon cost
+	threshold int, -- archetype
+	offence int, -- archetype
+	agility int, -- archetype
+	stamina int, -- archetype
+	arcanum varchar(80), -- archetype
+	realm varchar(20), -- archetype
+	race varchar(80), -- archetype
+	type varchar(80), -- archetype
+	ability varchar(80), -- archetype
+	skills text[], -- archetype
+	lore text, -- archetype
+	image text, -- archetype
+	quote varchar(80) -- archetype
+);
